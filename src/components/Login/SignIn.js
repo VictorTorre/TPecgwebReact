@@ -48,7 +48,7 @@ const SignIn = () => {
               {...register("clave", { required: true })}
               className="form-control"
               id="outlined-basic"
-              label="Contraseña"
+              type="password"
               variant="outlined"
             />
 
